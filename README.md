@@ -8,7 +8,8 @@ Este projeto faz parte da cadeira de **Projetos 02**, do 2° período do curso d
 5. [Requisitos](#requisitos)
 6. [Issues](#issues)
 7. [Como Contribuir](#como-contribuir)
-8. [Licença](#licença)
+8. [Imagem do Quadro Kanban](#kanban)
+9. [Licença](#licença)
 
 
 ## Integrantes:
@@ -42,6 +43,10 @@ Acompanhe o planejamento e as issues deste projeto na seção de [Issues](https:
 ## Como Contribuir
 
 Confira o [Contributing](./docs/CONTRIBUTING.md) para mais informações de como contribuir no projeto, bem como informações sobre inicialização e boas práticas para desenvolvimento do projeto.
+
+## kanban
+
+![image](https://github.com/user-attachments/assets/40352504-eca3-408f-813a-d9e982c5b0c5)
 
 ## Licença
 
