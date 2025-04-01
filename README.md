@@ -20,11 +20,14 @@ Este projeto faz parte da cadeira de **Projetos 02**, do 2° período do curso d
 
 ## Tema escolhido
 
-### **Tema**
+### Site para Prevenção de Incidentes com Tubarões e Monitoramento das Condições Oceânicas em Pernambuco
 
 ## Desafio
 
-Desafio Proposto
+### Desafios da Usina Pernambucana de Inovação abordados nesse projeto
+- [Como podemos desenvolver um site/aplicativo para prevenir incidentes com tubarões e promover a segurança aquática nas áreas costeiras e oceânicas de Pernambuco?](https://desafios.pe.gov.br/challenge?url=como-podemos-desenvolver-um-siteaplicativo-para-prevenir-incidentes-com-tubaroes-e-promover-a-seguranca-aquatica-nas-areas-costeiras-e-oceanicas-de-pernambuco)
+
+- [Previsibilidade de Marés, Ondas, Ventos e Correntes](https://desafios.pe.gov.br/challenge?url=previsibilidade-de-mares-ondas-ventos-e-correntes)
 
 ## Objetivos
 
