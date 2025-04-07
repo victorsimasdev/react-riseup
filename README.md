@@ -6,6 +6,7 @@ Este projeto faz parte da cadeira de **Projetos 02**, do 2° período do curso d
 3. [Desafio](#desafio)
 4. [Objetivos](#objetivos)
 5. [Requisitos](#requisitos)
+5. [Figma, Histórias e Screencast](#figma-histórias-e-screencast)
 6. [Issues](#issues)
 7. [Como Contribuir](#como-contribuir)
 8. [Imagem do Quadro Kanban](#kanban)
@@ -35,7 +36,20 @@ Este projeto faz parte da cadeira de **Projetos 02**, do 2° período do curso d
 - **Objetivos**: Objetivos do desafio proposto.
 
 ## Requisitos
-Para ver as especificações do projeto, veja o [arquivo de especificações](./docs/specifications.md).
+Para ver as especificações do projeto, veja o [arquivo de especificações](./docs/SPECIFICATIONS.md).
+
+## Figma, Histórias e Screencast
+Para ver nosso protótipo navegável basta acessar o nosso [protótipo figma](https://www.figma.com/design/E2wCgK6lcSq16ls9ST5R0O/Untitled?node-id=1-71&t=QU0YENGGn8KQwq2f-1)
+
+**Link para o ScreenCast do Protótipo**: [Screencast]()
+
+**Link para as Personas pensadas**: [Personas]()
+
+**Link para as Histórias pensadas**: [Histórias](https://github.com/users/victorsimasdev/projects/7/views/3)
+
+### Histórias Implementadas no Protótipo Navegável com TimeStamp do ScreenCast
+- [Chat Ao Vivo para Relatos e Alertas](https://github.com/victorsimasdev/react-riseup/issues/4), timestamp: xx:xx
+
 
 ## Issues
 Acompanhe o planejamento e as issues deste projeto na seção de [Issues](https://github.com/users/victorsimasdev/projects/7/views/1).
