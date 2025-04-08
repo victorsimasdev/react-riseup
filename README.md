@@ -41,14 +41,16 @@ Para ver as especificações do projeto, veja o [arquivo de especificações](./
 ## Figma, Histórias e Screencast
 Para ver nosso protótipo navegável basta acessar o nosso [protótipo figma](https://www.figma.com/design/E2wCgK6lcSq16ls9ST5R0O/Untitled?node-id=1-71&t=QU0YENGGn8KQwq2f-1)
 
-**Link para o ScreenCast do Protótipo**: [Screencast]()
-
-**Link para as Personas pensadas**: [Personas]()
+**Link para o ScreenCast do Protótipo**: [Screencast](https://drive.google.com/file/d/1PId33XEzumLYvDWnjuIWoJj7cNUqUfdF/view?usp=drive_link)
 
 **Link para as Histórias pensadas**: [Histórias](https://github.com/users/victorsimasdev/projects/7/views/3)
 
 ### Histórias Implementadas no Protótipo Navegável com TimeStamp do ScreenCast
-- [Chat Ao Vivo para Relatos e Alertas](https://github.com/victorsimasdev/react-riseup/issues/4), timestamp: xx:xx
+- [Chat Ao Vivo para Relatos e Alertas](https://github.com/victorsimasdev/react-riseup/issues/4), timestamp: **00:39 ~ 00:44**
+- [Botão de alerta para autoridades](https://github.com/victorsimasdev/react-riseup/issues/5), timestamp: **00:39 ~ 00:44**
+- [Sistema de notificação de áreas seguras timestamp](https://github.com/victorsimasdev/react-riseup/issues/3), **00:46 ~ 00:51**
+- [Integração com dados das marés](https://github.com/victorsimasdev/react-riseup/issues/8), timestamp: **00:55 ~ 01:00**
+- [Guia de primeiros socorros](https://github.com/victorsimasdev/react-riseup/issues/2), timestamp: **01:03 ~ 01:08**
 
 
 ## Issues
