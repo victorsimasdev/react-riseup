@@ -50,7 +50,7 @@ Para ver nosso protótipo navegável basta acessar o nosso [protótipo figma](ht
 ### Histórias Implementadas no Protótipo Navegável com TimeStamp do ScreenCast
 - [Chat Ao Vivo para Relatos e Alertas](https://github.com/victorsimasdev/react-riseup/issues/4), timestamp: **00:39 ~ 00:44**
 - [Botão de alerta para autoridades](https://github.com/victorsimasdev/react-riseup/issues/5), timestamp: **00:39 ~ 00:44**
-- [Sistema de notificação de áreas seguras timestamp](https://github.com/victorsimasdev/react-riseup/issues/3), **00:46 ~ 00:51**
+- [Sistema de notificação de áreas seguras](https://github.com/victorsimasdev/react-riseup/issues/3), timestamp **00:46 ~ 00:51**
 - [Integração com dados das marés](https://github.com/victorsimasdev/react-riseup/issues/8), timestamp: **00:55 ~ 01:00**
 - [Guia de primeiros socorros](https://github.com/victorsimasdev/react-riseup/issues/2), timestamp: **01:03 ~ 01:08**
 
