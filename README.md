@@ -1,4 +1,4 @@
-# Accenture 1 - CESAR School - RiseUP - Ark React(or)
+# Mar Alert
 Este projeto faz parte da cadeira de **Projetos 02**, do 2° período do curso de Análise e Desenvolvimento de Sistemas, a proposta do projeto é desenvolver uma aplicação front-end utilizando a tecnologia ```React```.
 ## Sumário
 1. [Integrantes](#integrantes)
