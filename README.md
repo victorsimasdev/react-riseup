@@ -1,4 +1,6 @@
 # Mar Alert
+![image](https://github.com/user-attachments/assets/7e127e36-6ae0-4678-b22a-3c5e4d0942cc)
+
 Este projeto faz parte da cadeira de **Projetos 02**, do 2° período do curso de Análise e Desenvolvimento de Sistemas, a proposta do projeto é desenvolver uma aplicação front-end utilizando a tecnologia ```React```.
 ## Sumário
 1. [Integrantes](#integrantes)
