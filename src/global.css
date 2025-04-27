@@ -4,7 +4,7 @@
   --background-header: #013A63;
   --text-color: #001F3F;
   --button: #00A6FB;
-  --background: var(--color-amber-100);
+  --background: var(--color-yellow-100);
   --alert: #FF6F00;
   --critical-alert: #D32F2F;
 }
