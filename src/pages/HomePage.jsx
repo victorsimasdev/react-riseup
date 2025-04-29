@@ -4,7 +4,7 @@ function HomePage() {
   return (
     <div className='flex justify-center'>
       <Header/>
-      <div className="w-[43rem] h-[23.0625rem] pt-20" >
+      <div className="w-[43rem] h-[23.0625rem] pt-[10rem]" >
         <div className='flex'>
           <h1 className='w-[18.5rem] h-[12.75rem] text-[#001F3F] font-roboto text-[8.1875rem] not-italic font-bold leading-[6.25rem]'>Mar Alert</h1>
           <img className='pl-[2rem]' src="src/assets/images/logo.svg" alt="Logo do site" />
