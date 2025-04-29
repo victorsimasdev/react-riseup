@@ -64,6 +64,8 @@ Dessa forma, optamos por uma abordagem colaborativa com divisão de tarefas bem 
 
 ## Issues
 Acompanhe o planejamento e as issues deste projeto na seção de [Issues](https://github.com/users/victorsimasdev/projects/7/views/1).
+![image](https://github.com/user-attachments/assets/e5aa0ba9-2306-4591-a385-518e9d748e84)
+
 
 ## Como Contribuir
 
