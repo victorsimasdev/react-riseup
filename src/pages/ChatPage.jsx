@@ -22,8 +22,8 @@ function ChatPage() {
         </button>
 
         {showModal && (
-          <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
-            <div className="bg-white p-6 rounded-lg shadow-lg w-80 text-center">
+          <div className="fixed inset-0 bg-opacity-50 flex items-center justify-center z-50">
+            <div className="bg-blue-100 p-6 rounded-lg shadow-lg w-80 text-center">
               <h2 className="text-lg font-semibold mb-4">Escolha a autoridade:</h2>
               <div className="flex flex-col space-y-3">
                 <button
