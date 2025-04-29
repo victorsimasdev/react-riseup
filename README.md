@@ -8,11 +8,12 @@ Este projeto faz parte da cadeira de **Projetos 02**, do 2° período do curso d
 3. [Desafio](#desafio)
 4. [Objetivos](#objetivos)
 5. [Requisitos](#requisitos)
-5. [Figma, Histórias e Screencast](#figma-histórias-e-screencast)
-6. [Issues](#issues)
-7. [Como Contribuir](#como-contribuir)
-8. [Imagem do Quadro Kanban](#kanban)
-9. [Licença](#licença)
+6. [Figma, Histórias e Screencast](#figma-histórias-e-screencast)
+7. [Justificativa para não utilizar Pair Programming](#justificativa-para-não-utilizar-pair-programming)
+8. [Issues](#issues)
+9. [Como Contribuir](#como-contribuir)
+10. [Imagem do Quadro Kanban](#kanban)
+11. [Licença](#licença)
 
 
 ## Integrantes:
@@ -54,6 +55,12 @@ Para ver nosso protótipo navegável basta acessar o nosso [protótipo figma](ht
 - [Integração com dados das marés](https://github.com/victorsimasdev/react-riseup/issues/8), timestamp: **00:55 ~ 01:00**
 - [Guia de primeiros socorros](https://github.com/victorsimasdev/react-riseup/issues/2), timestamp: **01:03 ~ 01:08**
 
+## Justificativa para não utilizar Pair Programming
+Embora o pair programming seja uma prática valiosa em ambientes profissionais e em projetos com alta complexidade, optamos por não adotá-la neste projeto de faculdade por questões práticas e pedagógicas. O escopo do trabalho, um site não tão complexo em React, é relativamente simples e pode ser dividido de forma eficiente entre os membros do grupo. Essa abordagem nos permite aproveitar melhor o tempo individual de estudo e desenvolvimento, promovendo o aprendizado ativo de cada integrante em áreas específicas do projeto (como componentes, rotas, estilização, etc.).
+
+Além disso, como o ambiente acadêmico visa o aprendizado individual e coletivo, a divisão de tarefas oferece a oportunidade de todos colocarem a mão no código e desenvolverem autonomia. O uso exclusivo de pair programming limitaria essa experiência, tornando o processo mais passivo para um dos membros em cada momento. Por fim, diferenças de disponibilidade entre os integrantes também tornam o pareamento constante inviável.
+
+Dessa forma, optamos por uma abordagem colaborativa com divisão de tarefas bem definida, revisões em grupo e reuniões frequentes para garantir a coesão do código e o aprendizado de todos.
 
 ## Issues
 Acompanhe o planejamento e as issues deste projeto na seção de [Issues](https://github.com/users/victorsimasdev/projects/7/views/1).
