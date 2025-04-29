@@ -4,7 +4,7 @@ function ChatPage() {
   return (
     <div>
       <Header/>
-      <div>
+      <div className='pt-20'>
         PAGINA DO CHAT
       </div>
     </div>

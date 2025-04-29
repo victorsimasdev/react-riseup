@@ -1,11 +1,11 @@
-import Logo from '../assets/logo-no-background.svg'
+import Logo from '../assets/images/logo-no-background.svg'
 import { Link } from 'react-router-dom';
 
 export function Header(){
   return (
-      <header className="w-full h-[80px] bg-[var(--background-header)] flex items-center text-white justify-between px-9">
-        <img className='h-[45px] w-auto cursor-pointerh' src={Logo} alt="Logo do site" />
-        <div className='items-center inline-flex gap-[40px]'>
+      <header className="w-full h-[80px] bg-[var(--background-header)] flex items-center text-white justify-between px-9 fixed top-0 left-0 w-full z-50">
+        <Link to="/"><img className='h-[45px] w-auto cursor-pointerh' src={Logo} alt="Logo do site" /></Link>
+        <div className='items-center inline-flex gap-[4rem]'>
           <Link to="/"><button className='font-black hover:text-[#62CAFF] transition-colors duration-300 cursor-pointer'>INICIO</button></Link>
           <Link to="/chat-page"><button className='font-black hover:text-[#62CAFF] transition-colors duration-300 cursor-pointer'>CHAT</button></Link>
           <Link to="/primeiros-socorros"><button className='font-black hover:text-[#62CAFF] transition-colors duration-300 cursor-pointer'>MAPAS</button></Link>
