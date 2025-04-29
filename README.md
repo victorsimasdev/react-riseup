@@ -8,12 +8,13 @@ Este projeto faz parte da cadeira de **Projetos 02**, do 2° período do curso d
 3. [Desafio](#desafio)
 4. [Objetivos](#objetivos)
 5. [Requisitos](#requisitos)
-6. [Figma, Histórias e Screencast](#figma-histórias-e-screencast)
-7. [Justificativa para não utilizar Pair Programming](#justificativa-para-não-utilizar-pair-programming)
-8. [Issues](#issues)
-9. [Como Contribuir](#como-contribuir)
-10. [Imagem do Quadro Kanban](#kanban)
-11. [Licença](#licença)
+6. [Diagramas](#diagramas)
+7. [Figma, Histórias e Screencast](#figma-histórias-e-screencast)
+8. [Justificativa para não utilizar Pair Programming](#justificativa-para-não-utilizar-pair-programming)
+9. [Issues](#issues)
+10. [Como Contribuir](#como-contribuir)
+11. [Imagem do Quadro Kanban](#kanban)
+12. [Licença](#licença)
 
 
 ## Integrantes:
@@ -40,6 +41,9 @@ Este projeto faz parte da cadeira de **Projetos 02**, do 2° período do curso d
 
 ## Requisitos
 Para ver as especificações do projeto, veja o [arquivo de especificações](./docs/SPECIFICATIONS.md).
+
+## Diagramas
+[Pasta do Google Drive com os Diagramas elaborados](https://drive.google.com/drive/folders/1E6U-9hRJWcml-U8ztsV_4MTrR2mURe8Y?usp=sharing)
 
 ## Figma, Histórias e Screencast
 Para ver nosso protótipo navegável basta acessar o nosso [protótipo figma](https://www.figma.com/design/E2wCgK6lcSq16ls9ST5R0O/Untitled?node-id=1-71&t=QU0YENGGn8KQwq2f-1)
