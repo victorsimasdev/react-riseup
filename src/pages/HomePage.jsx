@@ -1,4 +1,5 @@
 import { Header } from '../components/Header';
+import HomePageImage from '../assets/images/homePageImage.png';
 
 function HomePage() {
   return (
@@ -11,7 +12,7 @@ function HomePage() {
         </div>
           <p className='text-[color:var(--text)] font-roboto text-[3.625rem] not-italic font-bold leading-[3.8125rem] pt-[2rem]'>Mais do que um alerta.<br/><span className='text-[color:var(--alert)]'>Um aliado no litoral.</span></p>
       </div>
-      <img className='pt-[15rem] pl-[3rem]' src="../assets/images/homePageImage.png" alt="Imagem ilustrada de uma praia" />
+      <img className='pt-[15rem] pl-[3rem]' src={ HomePageImage } alt="Imagem ilustrada de uma praia" />
     </div>
   )
 }
