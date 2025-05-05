@@ -21,7 +21,7 @@
 
 				getBackEnd() {
 					// Simple GET Request - removing Content-Type might help avoid preflight for GET
-					fetch('http://localhost:5173/teste')
+					fetch('http://localhost:3000/teste')
 						.then(response => {
 							if (!response.ok) {
 								throw new Error(`HTTP error! status: ${response.status}`);
