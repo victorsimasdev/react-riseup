@@ -1,15 +1,12 @@
-# Atividade Tic Tac Toe
+# React + Vite
 
-## Como funciona
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-- O estado inicial do tabuleiro contém os números gerado pelo código abaixo, que inicializa um array com os valores de 0 a 8 que preencherão os quadrados.
+Currently, two official plugins are available:
 
-![image](https://github.com/user-attachments/assets/485e952e-b9c4-4624-9f21-7f928a956a09)
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-- Ao clicar em um quadrado, o número correspondente é substituído por "X", através do trecho abaixo
+## Expanding the ESLint configuration
 
-![image](https://github.com/user-attachments/assets/37c48418-2e12-4ead-b0d5-6a9a511300a9)
-
-- A alteração é feita através do índice i do array gerado, sendo passada a função na criação da função renderSquare.
-
-![image](https://github.com/user-attachments/assets/b06c9d31-979b-4aeb-948a-7c5f592b76ee)
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
