@@ -1,7 +1,7 @@
 import { Header } from "../components/Header";
 import LogoProjeto from '../assets/images/logo.svg';
 
-function AreaDeRiscoPage() {
+function SobrePage() {
   return (
     <div>
       <Header />
@@ -28,4 +28,4 @@ function AreaDeRiscoPage() {
   );
 }
 
-export default AreaDeRiscoPage;
+export default SobrePage;

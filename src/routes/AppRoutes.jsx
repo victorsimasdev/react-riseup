@@ -4,7 +4,7 @@ import ChatPage from '../pages/ChatPage';
 import LoginPage from '../pages/LoginPage';
 import PrimeirosSocorrosPage from '../pages/PrimeirosSocorrosPage';
 import TabuaDeMaresPage from '../pages/tabuaDeMaresPage';
-import AreaDeRiscoPage from '../pages/AreaDeRiscoPage';
+import SobrePage from '../pages/Sobre';
 
 function AppRoutes() {
   return (
@@ -14,7 +14,7 @@ function AppRoutes() {
         <Route path="/chat-page" element={<ChatPage />} />
         <Route path="/primeiros-socorros" element={<PrimeirosSocorrosPage />} />
         <Route path="/tabua-de-mares" element={<TabuaDeMaresPage />} />
-        <Route path="/areas-de-risco" element={<AreaDeRiscoPage />} />
+        <Route path="/sobre" element={<SobrePage />} />
         <Route path="/login" element={<LoginPage />} />
       </Routes>
     </Router>
