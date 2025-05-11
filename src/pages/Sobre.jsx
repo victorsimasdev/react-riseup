@@ -1,5 +1,6 @@
 import { Header } from "../components/Header";
-import LogoProjeto from '../assets/images/logo.svg';
+import LogoProjeto from "../assets/images/logo.svg";
+import PerfilEquipe from "../components/PerfilSobre";
 
 function SobrePage() {
   return (
@@ -18,10 +19,22 @@ function SobrePage() {
               do mar e orientações úteis, tudo de forma prática e acessível.
             </p>
           </div>
-          <img className='h-[20rem]' src={ LogoProjeto } alt="Logo do site" />
+          <img className="h-[20rem]" src={LogoProjeto} alt="Logo do site" />
         </div>
-        <div>
-          
+        <div className="flex mt-[6rem] justify-evenly">
+          <PerfilEquipe />
+          <div className="w-[37.6rem]">
+            <h1 className="text-[color:var(--text,#001F3F)] font-roboto text-[3.31181rem] not-italic font-semibold leading-none">
+              Quem somos nós?
+            </h1>
+            <p className="text-[color:var(--text,#001F3F)] font-roboto text-[1.65594rem] not-italic font-semibold leading-none">
+              Somos um grupo de estudantes e entusiastas da tecnologia e
+              segurança pública comprometidos com o bem-estar de todos que
+              frequentam o litoral. Nosso objetivo é usar a tecnologia como
+              aliada na prevenção de acidentes e na valorização da vida nas
+              praias.
+            </p>
+          </div>
         </div>
       </div>
     </div>
