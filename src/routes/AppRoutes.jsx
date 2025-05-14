@@ -1,21 +1,24 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import HomePage from '../pages/HomePage';
+
+import AreasDeRiscoPage from '../pages/AreasDeRiscoPage';
 import ChatPage from '../pages/ChatPage';
+import HomePage from '../pages/HomePage';
 import LoginPage from '../pages/LoginPage';
 import PrimeirosSocorrosPage from '../pages/PrimeirosSocorrosPage';
-import TabuaDeMaresPage from '../pages/tabuaDeMaresPage';
 import SobrePage from '../pages/Sobre';
+import TabuaDeMaresPage from '../pages/TabuaDeMaresPage';
 
 function AppRoutes() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<HomePage />} />
+        <Route path="/areas-de-risco" element={<AreasDeRiscoPage />} />
         <Route path="/chat-page" element={<ChatPage />} />
-        <Route path="/primeiros-socorros" element={<PrimeirosSocorrosPage />} />
-        <Route path="/tabua-de-mares" element={<TabuaDeMaresPage />} />
-        <Route path="/sobre" element={<SobrePage />} />
+        <Route path="/" element={<HomePage />} />
         <Route path="/login" element={<LoginPage />} />
+        <Route path="/primeiros-socorros" element={<PrimeirosSocorrosPage />} />
+        <Route path="/sobre" element={<SobrePage />} />
+        <Route path="/tabua-de-mares" element={<TabuaDeMaresPage />} />
       </Routes>
     </Router>
   );
