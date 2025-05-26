@@ -3,12 +3,12 @@ import { Header } from '../components/Header';
 
 
 const dadosMares = [
-  { dia: 25, semana: "DOM", mares: [
-      { hora: "02:06", altura: 2.28 },
-      { hora: "08:21", altura: 0.20 },
-      { hora: "14:38", altura: 2.41 },
-      { hora: "20:53", altura: 0.24 }
-  ]},
+  //  { dia: 25, semana: "DOM", mares: [
+  //      { hora: "02:06", altura: 2.28 },
+  //      { hora: "08:21", altura: 0.20 },
+  //      { hora: "14:38", altura: 2.41 },
+  //      { hora: "20:53", altura: 0.24 }
+  //  ]},
   { dia: 26, semana: "SEG", mares: [
       { hora: "02:55", altura: 2.37 },
       { hora: "09:12", altura: 0.11 },
@@ -50,11 +50,11 @@ function TabuaDeMaresPage() {
   return (
     <div>
       <Header />
-      <h1 className="text-[var(--text)] ml-8 pt-[130px] font-roboto text-[3.5rem] font-bold leading-none drop-shadow-lg">
+      <h1 className="ml-50 text-[var(--text)] ml-8 pt-[130px] font-roboto text-[3.5rem] font-bold leading-none drop-shadow-lg">
         Tábua de Marés
       </h1>
 
-      <div className="flex overflow-x-auto gap-6 px-8 py-10">
+      <div className="flex overflow-x-auto gap-6 px-8 py-10 justify-center">
         {dadosMares.map((dia, index) => (
           <CardTabelaMare
             key={index}
