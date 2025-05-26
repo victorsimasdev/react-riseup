@@ -68,6 +68,17 @@ export function CardTabelaMare({ dia, semana, mares }) {
           <p className="text-sm text-gray-500">Sem mais dados</p>
         )}
       </div>
+
+      {/* Troca de maré */}
+      <div className="px-4 py-2">
+        <h1 className="text-[var(--background-header)] font-semibold mb-1">🕒 Trocas de maré:</h1>
+        {trocas.map((t, i) => (
+          <div key={i} className="text-sm text-gray-700 flex justify-between">
+            <span>{t.hora}</span>
+            <span>{t.sentido}</span>
+          </div>
+        ))}
+      </div>
     </div>
   );
 }
