@@ -8,26 +8,26 @@ import {
 const perfis = [
   {
     nome: "Julio Bezerra",
-    foto: "https://randomuser.me/api/portraits/men/1.jpg",
-    github: "https://github.com/",
-    linkedin: "https://linkedin.com/in/",
+    foto: "https://github.com/Juliobzr.png",
+    github: "https://github.com/Juliobzr",
+    linkedin: "https://www.linkedin.com/in/julio-bezerra-8736941a2/",
   },
   {
     nome: "Victor Simas",
-    foto: "https://randomuser.me/api/portraits/men/2.jpg",
-    github: "https://github.com/",
-    linkedin: "https://linkedin.com/in/",
+    foto: "https://github.com/victorsimasdev.png",
+    github: "https://github.com/victorsimasdev",
+    linkedin: "https://www.linkedin.com/in/victor-simas/",
   },
   {
     nome: "Rafael Farias",
-    foto: "https://randomuser.me/api/portraits/men/3.jpg",
-    github: "https://github.com/",
-    linkedin: "https://linkedin.com/in/",
+    foto: "https://github.com/rafaelFarias7.png",
+    github: "https://github.com/rafaelFarias7",
+    linkedin: "https://www.linkedin.com/in/rafaelfariass/",
   },
   {
     nome: "Ramom Aguiar",
-    foto: "https://randomuser.me/api/portraits/men/4.jpg",
-    github: "https://github.com/",
+    foto: "https://github.com/RamomAguiar2004.png",
+    github: "https://github.com/RamomAguiar2004",
     linkedin: "https://linkedin.com/in/",
   },
 ];

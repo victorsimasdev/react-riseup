@@ -1,13 +1,18 @@
-import { Header } from '../components/Header';
-import { useState } from 'react';
+import { Header } from "../components/Header";
+import { useState } from "react";
+import { useAuth } from "../contexts/AuthContext";
+import { useNavigate } from "react-router-dom";
 
 function LoginPage() {
-  const [email, setEmail] = useState('');
-  const [password, setPassword] = useState('');
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const { login } = useAuth();
+  const navigate = useNavigate();
 
   const handleLogin = (e) => {
     e.preventDefault();
-    alert('Logado');
+    login();
+    navigate("/");
   };
 
   return (
@@ -18,7 +23,9 @@ function LoginPage() {
           <h2 className="text-2xl font-bold mb-6 text-center">Login</h2>
           <form onSubmit={handleLogin}>
             <div className="mb-4">
-              <label className="block text-gray-700 mb-2" htmlFor="email">Email</label>
+              <label className="block text-gray-700 mb-2" htmlFor="email">
+                Email
+              </label>
               <input
                 id="email"
                 type="email"
@@ -30,7 +37,9 @@ function LoginPage() {
               />
             </div>
             <div className="mb-6">
-              <label className="block text-gray-700 mb-2" htmlFor="password">Senha</label>
+              <label className="block text-gray-700 mb-2" htmlFor="password">
+                Senha
+              </label>
               <input
                 id="password"
                 type="password"
