@@ -12,6 +12,7 @@ function LoginPage() {
   const handleLogin = (e) => {
     e.preventDefault();
     login();
+    alert('Logado');
     navigate("/");
   };
 

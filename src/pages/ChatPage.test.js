@@ -16,6 +16,20 @@ const renderWithProviders = (ui) => {
 
 describe('ChatPage', () => {
   test('abre e fecha o modal ao clicar nos botões', () => {
-    expect(true).toBe(true);
+    renderWithProviders(<ChatPage />);
+
+    const alertButton = screen.getByRole('button', {
+      name: (content, element) => content.toLowerCase().includes('alertar') && content.toLowerCase().includes('autoridades')
+    });
+    expect(alertButton).toBeInTheDocument();
+
+    fireEvent.click(alertButton);
+
+    const policeButton = screen.getByRole('button', { name: /polícia/i });
+    expect(policeButton).toBeInTheDocument();
+
+    fireEvent.click(policeButton);
+
+    expect(window.alert).toHaveBeenCalledWith('Polícia acionado para sua localização.');
   });
 });

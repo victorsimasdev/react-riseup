@@ -16,6 +16,23 @@ const renderWithProviders = (ui) => {
 
 describe('LoginPage', () => {
   test('preenche o formulário e envia', () => {
-    expect(true).toBe(true);
+    renderWithProviders(<LoginPage />);
+
+    const emailInput = screen.getByLabelText(/email/i);
+    const passwordInput = screen.getByLabelText(/senha/i);
+
+    const submitButtons = screen.getAllByRole('button', { name: /entrar/i });
+    const submitButton = submitButtons.find(
+      (btn) => btn.getAttribute('type') === 'submit'
+    );
+
+    expect(submitButton).toBeInTheDocument();
+
+    fireEvent.change(emailInput, { target: { value: 'teste@email.com' } });
+    fireEvent.change(passwordInput, { target: { value: '123456' } });
+
+    fireEvent.click(submitButton);
+
+    expect(window.alert).toHaveBeenCalledWith('Logado');
   });
 });
