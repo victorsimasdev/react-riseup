@@ -1,4 +1,4 @@
-# Guia de Contribuição
+<h1 align="center">Guia de Contribuição</h1>
 
 Bem-vindo ao guia de contribuição para este projeto! Este documento detalha como nossa equipe deve contribuir, reportar problemas e seguir os padrões de desenvolvimento. Siga as instruções abaixo para garantir que o processo de colaboração seja eficiente e consistente.
 
