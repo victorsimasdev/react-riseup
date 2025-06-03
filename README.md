@@ -59,6 +59,7 @@ Para ver nosso protótipo navegável basta acessar o nosso [protótipo figma](ht
 ## **Screencasts**
 - **Link para o Screencast de Testes Automatizados:** [screencast](https://drive.google.com/file/d/1GtPjyz6govgD07CkD5p8wSkJFirKPM1n/view?usp=sharing)
 - **Link para o Screencast de CI/CD Workflow:** [Screencast](https://drive.google.com/file/d/1Juy5yUD0k2mBFcweOf49igCOWVvu3_xr/view?usp=sharing)
+- **Link para o Screencast do CI/CD build do Vercel:** [Screencast](https://drive.google.com/file/d/1kztW67ZZT24ltU5d2Sn8pa9BWIcuKgTg/view?usp=sharing)
 - **Link para o ScreenCast do Protótipo**: [Screencast](https://drive.google.com/file/d/1PId33XEzumLYvDWnjuIWoJj7cNUqUfdF/view?usp=drive_link)
 
 
