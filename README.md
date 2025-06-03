@@ -13,12 +13,13 @@ Este projeto faz parte da cadeira de **Projetos 02**, do 2° período do curso d
 4. [Objetivos](#objetivos)
 5. [Requisitos](#requisitos)
 6. [Diagramas](#diagramas)
-7. [Figma, Histórias e Screencast](#figma-histórias-e-screencast)
-8. [Justificativa para não utilizar Pair Programming](#justificativa-para-não-utilizar-pair-programming)
-9. [Issues](#issues)
-10. [Como Contribuir](#como-contribuir)
-11. [Imagem do Quadro Kanban](#kanban)
-12. [Licença](#licença)
+7. [Figma e Histórias](#figma-e-histórias)
+8. [Screencasts](#screencasts)
+9. [Justificativa para não utilizar Pair Programming](#justificativa-para-não-utilizar-pair-programming)
+10. [Issues](#issues)
+11. [Como Contribuir](#como-contribuir)
+12. [Imagem do Quadro Kanban](#kanban)
+13. [Licença](#licença)
 
 
 ## Integrantes:
@@ -49,12 +50,16 @@ Para ver as especificações do projeto, veja o [arquivo de especificações](./
 ## Diagramas
 [Pasta do Google Drive com os Diagramas elaborados](https://drive.google.com/drive/folders/1E6U-9hRJWcml-U8ztsV_4MTrR2mURe8Y?usp=sharing)
 
-## Figma, Histórias e Screencast
+## Figma e Histórias
 Para ver nosso protótipo navegável basta acessar o nosso [protótipo figma](https://www.figma.com/design/E2wCgK6lcSq16ls9ST5R0O/Untitled?node-id=1-71&t=QU0YENGGn8KQwq2f-1)
 
-**Link para o ScreenCast do Protótipo**: [Screencast](https://drive.google.com/file/d/1PId33XEzumLYvDWnjuIWoJj7cNUqUfdF/view?usp=drive_link)
-
 **Link para as Histórias pensadas**: [Histórias](https://github.com/users/victorsimasdev/projects/7/views/3)
+
+## Screencasts
+- **Link para o Screencast de Testes Automatizados:** [screencast](https://drive.google.com/file/d/1GtPjyz6govgD07CkD5p8wSkJFirKPM1n/view?usp=sharing)
+- **Link para o Screencast de CI/CD Workflow:** [Screencast](https://drive.google.com/file/d/1Juy5yUD0k2mBFcweOf49igCOWVvu3_xr/view?usp=sharing)
+- **Link para o ScreenCast do Protótipo**: [Screencast](https://drive.google.com/file/d/1PId33XEzumLYvDWnjuIWoJj7cNUqUfdF/view?usp=drive_link)
+
 
 ### Histórias Implementadas no Protótipo Navegável com TimeStamp do ScreenCast
 - [Chat Ao Vivo para Relatos e Alertas](https://github.com/victorsimasdev/react-riseup/issues/4), timestamp: **00:39 ~ 00:44**
