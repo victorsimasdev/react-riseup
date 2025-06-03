@@ -1,4 +1,5 @@
-# Mar Alert
+<h1 align="center">Mar Alert</h1>
+
 ![image](https://github.com/user-attachments/assets/7e127e36-6ae0-4678-b22a-3c5e4d0942cc)
 
 [Link para o Site em Produção](https://react-riseup.vercel.app/), utilizado o vercel para lançamento do site.
