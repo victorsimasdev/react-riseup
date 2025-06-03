@@ -24,7 +24,7 @@ jobs:
         run: npm install
 
       - name: ✅ Rodar testes com Jest
-        run: node --experimental-vm-modules node_modules/.bin/jest --ci --watchAll=false
+        run: npm test
 
       - name: 🛠️ Build do projeto com Vite
         run: npm run build
