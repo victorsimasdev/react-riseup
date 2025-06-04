@@ -4,7 +4,6 @@ import { MemoryRouter } from 'react-router-dom';
 import LoginPage from './LoginPage';
 import { AuthProvider } from '../contexts/AuthContext';
 
-// Mock do useNavigate
 const mockedUsedNavigate = jest.fn();
 jest.mock('react-router-dom', () => {
   const originalModule = jest.requireActual('react-router-dom');
@@ -14,7 +13,6 @@ jest.mock('react-router-dom', () => {
   };
 });
 
-// Render com AuthProvider e roteamento
 const renderWithProviders = (ui) => {
   return render(
     <MemoryRouter>
@@ -30,7 +28,6 @@ describe('LoginPage', () => {
     const emailInput = screen.getByLabelText(/email/i);
     const passwordInput = screen.getByLabelText(/senha/i);
 
-    // Pegando o botão de submit do formulário (ignora o do header)
     const submitButtons = screen.getAllByRole('button', { name: /entrar/i });
     const submitButton = submitButtons.find(
       (btn) => btn.getAttribute('type') === 'submit'
@@ -43,7 +40,6 @@ describe('LoginPage', () => {
 
     fireEvent.click(submitButton);
 
-    // Verifica se foi redirecionado para "/"
     expect(mockedUsedNavigate).toHaveBeenCalledWith('/');
   });
 });
